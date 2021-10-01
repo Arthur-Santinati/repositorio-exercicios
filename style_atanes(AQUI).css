@@ -1,12 +1,10 @@
-#titulos{
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em;
-    color: black;
+h1{
+    width: 20em;
+    color:black;
     text-align: center;
 }
 
-#rodape{
+footer{
     margin-left: auto;
     margin-right: auto;
     width: 15em  
@@ -15,9 +13,9 @@
 
 
 body {
-    background-image: url(imagens/fundocerto.jpg);
+    background-image: url(imagens/roxo.jpg)
     background-repeat: no-repeat;
-    background-size: 1600px;
+    background-size::1600px;
     
 }
 
