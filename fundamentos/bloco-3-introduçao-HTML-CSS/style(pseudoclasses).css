@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+li:hover {
+    background-color: blue;
+}
+
+li:active {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+li, ol {
+    list-style: none;
+}
+div:hover{
+    border: 5px solid green;
+}
+h3 {
+    font-style: italic;
+}
+#div-primaria{
+ color: red;
+}
+
+#div-secundaria {
+ color: lawngreen;
+
+}
+
+#div-complementar {
+    height: 100px;
+    color: mediumvioletred;
+}
+
+#div-escura {
+ color: rgb(22, 4, 4);
+}
+
+#div-clara {
+ color: rgb(205, 77, 236);
+}
