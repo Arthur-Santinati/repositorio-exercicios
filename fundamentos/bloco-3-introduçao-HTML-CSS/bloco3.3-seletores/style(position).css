@@ -27,10 +27,17 @@
   .speach {
     font-size: 25px;
     position: absolute;
-    top: 234px;
+    top: 400px;
     left: 408px;
     z-index: 2;
   
+  }
+
+  .fala {
+    font-size: 25px;
+    position: absolute;
+    top: 141px;
+    left: 1090px;
   }
   
   .bowser {
@@ -41,3 +48,15 @@
     
   }
 
+  .princesa {
+    position: absolute;
+    top: 288px;
+    left: 1284px;
+    width: 150px;
+  }
+
+  .balao {
+    position: absolute;
+    left: 989px;
+    top: 160px;
+  }
