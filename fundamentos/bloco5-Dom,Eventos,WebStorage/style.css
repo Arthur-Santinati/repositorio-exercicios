@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+  }
+  
+  #container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  #header-container {
+    background-color: rgb(57, 211, 57);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  .emergency-tasks {
+    display: inline-block;
+    height: 400px;
+    margin: 56px 0;
+    width: 400px;
+  }
+  
+  .emergency-tasks div {
+    background-color: rgb(224, 127, 127);
+    height: 198px;
+  }
+  .emergency-tasks h3 {
+    background-color: rgb(106, 0, 206);
+    color: rgb(255, 255, 255);
+    margin-top: 10px; 
+    padding: 10px;
+  }
+  
+  .no-emergency-tasks {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+  }
+  
+  .no-emergency-tasks div {
+    background-color: rgb(238, 255, 4);
+    height: 198px;
+  }
+  
+  .no-emergency-tasks h3 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  #footer-container {
+    background-color: rgb(12, 38, 87);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+  }
