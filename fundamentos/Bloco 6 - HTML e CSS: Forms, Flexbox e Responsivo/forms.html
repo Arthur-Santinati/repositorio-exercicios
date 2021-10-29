@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <header class="speaker-form-header">
+            <h1>Preencha aqui o seu currículo!</h1>
+            <p><em> Preencha agora e concorra á uma vaga em nossa empresa!</em></p>
+        </header>
+    </header>
+    <form action="" method="get" id="form" class="speaker-form">
+        <fieldset>
+            <div class="line-content">
+                <label for="name">Nome: </label>
+                <input id="name" type="text" required maxlength="40" placeholder="Seu nome:">
+            </div>
+            <div class="line-content">
+                <label for="email">Email: </label>
+                <input id="email" type="email" required maxlength="50" placeholder="Seu email:">
+            </div>
+            <div class="line-content">
+                <label for="cpf">CPF: </label>
+                <input id="cpf" type="text" required maxlength="11" placeholder="Seu CPF:">
+            </div>
+            <div class="line-content">
+                <label for="adress">Endereço: </label>
+                <input id="adress" type="text" required maxlength="200" placeholder="Seu Endereço:">
+            </div>
+            <div class="line-content">
+                <label for="city">Cidade: </label>
+                <input id="city" type="text" required maxlength="28" placeholder="Sua cidade:">
+            </div>
+            <div class="line-content">
+                <label for="estados">Seu estado:</label>
+                <select name="estados" id="estados" required>
+                </select>
+            </div>
+            <div class="line-content">
+                <label for="houseType">Tipo de imóvel: </label>
+                <input type="radio" value="casa" id="casa" name="houseType">
+                <span>Casa</span>
+                <input type="radio" value="apartamento" id="apartamento" name="houseType" required>
+                <span>Apartamento</span>
+            </div>
+        </fieldset>
+        <img src="trybe.png" alt="logo da trybe" id="trybe-logo">
+        <fieldset>
+            <div class="line-content">
+                <span>Resumo do curriculo:</span>
+                <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required
+                    placeholder="Escreva aqui:"></textarea>
+            </div>
+            <div class="line-content">
+                <label for="cargo">Cargo ocupado:</label>
+                <input type="text" name="cargo" id="cargo" maxlength="40" required placeholder="Seu cargo:">
+            </div>
+            <div class="line-content">
+                <label for="description">Descrição do cargo:</label>
+                <input type="text" name="descricao" id="description" maxlength="500" required
+                    placeholder="Escreva aqui a descrição:">
+            </div>
+            <div class="line-content">
+                <label for="date">Data de ínicio:</label>
+                <input type="date" name="data" id="date" required max="2022-12-31" min="1950-01-01">
+            </div>
+            <div class="line-content">
+                <button type="submit" id="validando" class="buttons">Validar</button>
+                <button id="limpa-tudo" class="buttons">Limpar tudo</button>
+            </div>
+        </fieldset>
+    </form>
+    <div id="dados-coletados">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
